@@ -46,7 +46,7 @@ const style = {
   }
 };
 
-const PhoneBookForm = (props) => {
+const CharacterBookForm = (props) => {
   // State
   const initState = {
     id: null,
@@ -185,7 +185,7 @@ const App = (props) => {
   };
   return (
     <section>
-      <PhoneBookForm addUserItem={addUserItem} />
+      <CharacterBookForm addUserItem={addUserItem} />
       <hr />
       <InformationTable users={users} />
     </section>
